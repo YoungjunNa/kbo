@@ -2,6 +2,7 @@
 #'
 #' This function scrap the information of KBO players.
 #' @param name Name of player.
+#' @param birth Birthday of the player if there are players with the same name.
 #' @param year Year of season.
 #' @keywords baseball
 #' @export
@@ -13,10 +14,10 @@
 #' @import xml2
 #' @examples
 #' player(name = "안치홍", year = "2019")
-#' player(name = "양현종", year = "2018")
+#' player(name = "박찬호", birth = "1995-06-05", year = "2019")
 
-player <- function(name = "안치홍", year = "2019") {
-  url <- paste0("http://www.statiz.co.kr/player.php?opt=3&name=", name, "&year=", year)
+player <- function(name = "안치홍", birth = "", year = "2019") {
+  url <- paste0("http://www.statiz.co.kr/player.php?opt=3&name=", name, "&birth=", birth, "&year=", year)
 
   Sys.sleep(sample(1:10)[3]/8) # I'm sorry Statiz..
 

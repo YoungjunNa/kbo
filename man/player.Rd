@@ -4,10 +4,12 @@
 \alias{player}
 \title{player}
 \usage{
-player(name = "안치홍", year = "2019")
+player(name = "안치홍", birth = "", year = "2019")
 }
 \arguments{
 \item{name}{Name of player.}
+
+\item{birth}{Birthday of the player if there are players with the same name.}
 
 \item{year}{Year of season.}
 }
@@ -16,6 +18,6 @@ This function scrap the information of KBO players.
 }
 \examples{
 player(name = "안치홍", year = "2019")
-player(name = "양현종", year = "2018")
+player(name = "박찬호", birth = "1995-06-05", year = "2019")
 }
 \keyword{baseball}
