@@ -1,6 +1,6 @@
 # kbo
 
-R package for the empirical analysis of baseball at Korea (KBO).
+R package for the empirical analysis of Korea baseball league (KBO).
 
 ## `player()`
 ```
