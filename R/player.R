@@ -12,6 +12,7 @@
 #' @import dplyr
 #' @import tidyr
 #' @import xml2
+#' @import janitor
 #' @examples
 #' player(name = "안치홍", year = "2019")
 #' player(name = "박찬호", birth = "1995-06-05", year = "2019")
