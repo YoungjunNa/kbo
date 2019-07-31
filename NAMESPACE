@@ -2,6 +2,7 @@
 
 export(player)
 import(dplyr)
+import(janitor)
 import(lubridate)
 import(rvest)
 import(tibble)
