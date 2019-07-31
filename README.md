@@ -1,6 +1,6 @@
 # kbo
 
-Sabermetrics for KBO.
+R package for the empirical analysis of baseball at Korea (KBO).
 
 ## `player()`
 ```
